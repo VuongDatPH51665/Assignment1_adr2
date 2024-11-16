@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">Assignment_Adr2</string>
+    <string name="dang_nhap">Đăng nhập</string>
+    <string name="tai_khoan">Tên tài khoản:</string>
+    <string name="edit_tai_khoan">Tên tài khoản hoặc Email</string>
+    <string name="mat_khau">Mật khẩu</string>
+    <string name="thoat">Thoát</string>
+    <string name="dang_ky">Đăng ký</string>
+    <string name="sua">Sửa</string>
+    <string name="xoa">Xoá</string>
+    <string name="ten_sp">Tên sản phẩm</string>
+    <string name="gia_sp">Giá bán</string>
+    <string name="sl_sp">Số lượng</string>
+    <string name="luu">Lưu</string>
+    <string name="vnd">VND</string>
+    <string name="ton_kho">Tồn kho</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Chào mừng đến với Asigment Android 2 của tôi.</string>
+    <string name="quan_ly">Quan Lý Sản Phẩm</string>
+    <string name="gioi_thieu">Giới thiệu</string>
+    <string name="khac">Khác</string>
+    <string name="open">Open</string>
+    <string name="close">Close</string>
+</resources>

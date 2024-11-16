@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center|top"
+    android:padding="5dp"
+    tools:context=".Screen.DangNhap">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/dang_nhap"
+        android:textSize="40sp"
+        android:textAllCaps="true"
+        android:textStyle="bold"
+        android:layout_margin="5sp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/tai_khoan"
+        android:textSize="@dimen/text_size"
+        android:layout_margin="5sp" />
+
+    <EditText
+        android:id="@+id/edt_un_login"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:hint="@string/edit_tai_khoan"
+        android:textSize="@dimen/text_size"
+        android:textStyle="bold"
+        android:layout_margin="5sp"
+        android:inputType="text"
+        android:autofillHints="username" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/mat_khau"
+        android:textSize="@dimen/text_size"
+        android:layout_margin="5sp" />
+
+    <EditText
+        android:id="@+id/edt_pw_login"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:hint="@string/mat_khau"
+        android:textSize="@dimen/text_size"
+        android:textStyle="bold"
+        android:layout_margin="5sp"
+        android:inputType="textPassword"
+        android:autofillHints="password" />
+
+    <Button
+        android:id="@+id/btn_in_login"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/dang_nhap"
+        android:textSize="@dimen/btn_size"
+        android:layout_margin="5sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <Button
+            android:id="@+id/btn_out_login"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/thoat"
+            android:textSize="@dimen/btn_size"
+            android:layout_margin="5sp" />
+        <Button
+            android:id="@+id/btn_sig_login"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/dang_ky"
+            android:textSize="@dimen/btn_size"
+            android:layout_margin="5sp" />
+    </LinearLayout>
+
+</LinearLayout>
